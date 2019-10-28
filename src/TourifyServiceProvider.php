@@ -26,9 +26,9 @@ class TourifyServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->publishes([
-            __DIR__.'/assets/css/hopscotch.css' => public_path('vendor/rehan/tourify/css/hopscotch.css'),
-            __DIR__.'/assets/js/hopscotch.js' => public_path('vendor/rehan/tourify/js/hopscotch.js'),
-            __DIR__.'/assets/img/' => public_path('vendor/rehan/tourify/img/'),
+            __DIR__.'/assets/css/hopscotch.css' => public_path('vendor/zusamarehan/tourify/css/hopscotch.css'),
+            __DIR__.'/assets/js/hopscotch.js' => public_path('vendor/zusamarehan/tourify/js/hopscotch.js'),
+            __DIR__.'/assets/img/' => public_path('vendor/zusamarehan/tourify/img/'),
         ], 'tourifyAssets');
 
         $currentRouteName = self::getRouteName();

@@ -1,11 +1,11 @@
 {
-    "name": "rehan/tourify",
+    "name": "zusamarehan/tourify",
     "description": "A Package for adding Tour/Help to your Laravel Projects.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "rehan",
+            "name": "zusamarehan",
             "email": "zrehan286@gmail.com"
         }
     ],
