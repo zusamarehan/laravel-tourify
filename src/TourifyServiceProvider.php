@@ -1,6 +1,6 @@
 <?php
-namespace Rehan\Tourify;
-use Rehan\Tourify\Model\Tourifies;
+namespace Zusamarehan\Tourify;
+use Zusamarehan\Tourify\Model\Tourifies;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

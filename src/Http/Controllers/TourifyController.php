@@ -1,10 +1,10 @@
 <?php
-namespace Rehan\Tourify\Http\Controllers;
+namespace Zusamarehan\Tourify\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;
 
-use Rehan\Tourify\Model\Tourifies;
+use Zusamarehan\Tourify\Model\Tourifies;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Artisan;

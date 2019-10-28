@@ -11,7 +11,7 @@
 |
 */
 
-$nameSpace = 'Rehan\Tourify\Http\Controllers';
+$nameSpace = 'Zusamarehan\Tourify\Http\Controllers';
 Route::group(['namespace' => $nameSpace], function () {
     Route::get('/productTour/create', 'TourifyController@create')
         ->name('createTour');
