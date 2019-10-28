@@ -1,0 +1,14 @@
+{
+    "name": "rehan/tourify",
+    "description": "A Package for adding Tour/Help to your Laravel Projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rehan",
+            "email": "zrehan286@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
