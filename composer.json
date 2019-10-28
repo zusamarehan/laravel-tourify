@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zusamarehan\\tourify\\ServiceProvider"
+                "Zusamarehan\\tourify\\TourifyServiceProvider"
             ]
         }
     },
