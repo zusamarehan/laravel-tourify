@@ -17,7 +17,7 @@ The package gives the developers a rich UI to create/edit/remove/update Tour for
  ## Installation
 
  ```shell
-composer require rehan/laravel-tourify
+composer require zusamarehan/tourify
 ```
 
 Then you will need to publish few assets using the below command
