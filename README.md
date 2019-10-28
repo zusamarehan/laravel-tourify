@@ -28,8 +28,8 @@ Then you will need to publish few assets using the below command
 
 Once the public is successful you need to import a stylesheet and js file in your master/layout file like so,
 
-        <link rel="stylesheet" href="{{ asset('/vendor/rehan/tourify/css/hopscotch.css') }}">
-        <script rel="stylesheet" src="{{ asset('/vendor/rehan/tourify/js/hopscotch.js') }}"></script>
+        <link rel="stylesheet" href="{{ asset('/vendor/zusamarehan/tourify/css/hopscotch.css') }}">
+        <script rel="stylesheet" src="{{ asset('/vendor/zusamarehan/tourify/js/hopscotch.js') }}"></script>
 
 Also, run migrations as well.
 
