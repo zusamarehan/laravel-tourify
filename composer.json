@@ -16,7 +16,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
+            "dont-discover": [
                 "Zusamarehan\\Tourify\\TourifyServiceProvider"
             ]
         }
