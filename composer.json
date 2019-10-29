@@ -17,13 +17,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zusamarehan\\tourify\\TourifyServiceProvider"
+                "Zusamarehan\\Tourify\\TourifyServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Zusamarehan\\tourify\\": "src"
+            "Zusamarehan\\Tourify\\": "src"
         }
     }
 }
