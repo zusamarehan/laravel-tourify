@@ -37,7 +37,7 @@ class TourifyController extends Controller
 
         foreach (Route::getRoutes()->getRoutes() as $route) {
             $action = $route->getAction();
-            if (array_key_exists('as', $action)) {
+            if (array_key_exists('as', $action) && $route->methods[0] === 'GET') {
                 $allGetRoutes[] = $action['as'];
             }
         }

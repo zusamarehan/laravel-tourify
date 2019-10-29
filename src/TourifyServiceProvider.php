@@ -66,7 +66,7 @@ class TourifyServiceProvider extends ServiceProvider
         }
         foreach (Route::getRoutes()->getRoutes() as $route) {
             $action = $route->getAction();
-            if($currentURI === $route->uri && array_key_exists('as', $action)) {
+            if($route->methods[0] === 'GET' && $currentURI === $route->uri && array_key_exists('as', $action)) {
 
                 $routeName =  $action['as'];
             }

@@ -14,13 +14,6 @@
     "require": {
         "php": ">=5.3.0"
     },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-                "Zusamarehan\\Tourify\\TourifyServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
             "Zusamarehan\\Tourify\\": "src"
