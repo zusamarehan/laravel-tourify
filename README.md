@@ -19,6 +19,12 @@ The package gives the developers a rich UI to create/edit/remove/update Tour for
  ```shell
 composer require zusamarehan/tourify
 ```
+Add the ServiceProvider to the providers array in config/app.php
+
+```php
+  Zusamarehan\Tourify\TourifyServiceProvider::class
+```
+NOTE: The providers makes use of `App\Providers\RouteServiceProvider::class` and hence it needs to be added after Application Service Providers.
 
 Then you will need to publish few assets using the below command
 
@@ -35,6 +41,12 @@ Also, run migrations as well.
 
 ## Usage
 
+Available endpoints are
+- `/productTour/create`
+  - For creating new Tours
+- `/productTour/list`
+  - For listing the created Tours to modify/delete
+  
 Once installation is successfull  head to `/productTour/create` it will bring up the available routes names specified in your `web.php` file.
 
 
